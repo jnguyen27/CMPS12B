@@ -1,1 +1,11 @@
-Edit before submitting
+// ----------------------------------
+// Duy Nguyen
+// W1475318
+// CS 12M lab2
+// 10/04/16
+// README file
+// ----------------------------------
+
+README			List of files being submitted
+Makefile		Compiles FileReverse
+FileReverse.java	Reverses strings of text from in file and prints them to out file
