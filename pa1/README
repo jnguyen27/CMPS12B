@@ -1,1 +1,9 @@
-Edit before submitting
+// -------------------------------
+// Duy Nguyen and Mrinal Chitothi
+// CS 12B pa1
+// README File
+// -------------------------------
+
+README		Table of contents of included files in submission
+Makefile	Compiles the Recursion file
+Recursion.java	Reverses the array in 3 different way and finds the index of the max and min element in the arry
