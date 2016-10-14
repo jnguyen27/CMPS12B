@@ -6,7 +6,6 @@
 // Implementing Binary Search and Merge Sort algorithms for String arrays
 // -----------------------------------------------------------------------
 
-import java.util.Arrays;
 import java.io.*;
 import java.util.Scanner;
 
