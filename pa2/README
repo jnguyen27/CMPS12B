@@ -1,1 +1,9 @@
-Edit before submitting
+// ---------------------------
+// Duy Nguyen
+// CS 12b pa2
+// README file
+// ---------------------------
+
+README		Table of contents of included files in submissions
+Makefile	Compiles Search file, creates the class file, and creats an executable jarfile
+Search.java	Takes in a file and a target or multiple targets, sorts the file and returns whether the target(s) were found and what line they were found on if they were found
