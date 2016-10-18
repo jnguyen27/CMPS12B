@@ -1,1 +1,11 @@
-Edit before submitting
+// --------------------------------
+// Duy Nguyen
+// W1475318
+// CS 12M lab3
+// 10/17/16
+// README file
+// --------------------------------
+
+README			List of files being submitted
+Makefile		Compiles FileReverse.c
+FileReverse.c		Reverses strings of text from in file and prints them to out file on separate lines
