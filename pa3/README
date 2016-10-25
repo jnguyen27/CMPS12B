@@ -1,1 +1,14 @@
-Edit before submitting
+// ----------------
+// Duy Nguyen
+// CS 12b pa3
+// README file
+// ----------------
+
+README				Table of contents of included files in submission
+Makefile			Compiles
+Dictionary.java 		Description
+DictionaryTest.java		Description
+DuplicateKeyException.java	Description
+KeyNotFoundException.java
+DictionaryInterface.java
+DictionaryClient.java
