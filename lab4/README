@@ -9,3 +9,4 @@
 README		List of files being submitted
 Makefile	Complies charType.c, creates an executable jar file and also has a check function for errors
 charType.c	Takes in a file and prints out how many alphabetic, numeric, punctuation, and whitespace characters are on what line
+in 		File contained inside lab for testing
