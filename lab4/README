@@ -1,1 +1,11 @@
-Edit before submitting
+// -----------------------
+// Duy Nguyen
+// W1475318
+// CS 12M lab4
+// 10/24/16
+// README file
+// -----------------------
+
+README		List of files being submitted
+Makefile	Complies charType.c, creates an executable jar file and also has a check function for errors
+charType.c	Takes in a file and prints out how many alphabetic, numeric, punctuation, and whitespace characters are on what line
