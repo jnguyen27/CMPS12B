@@ -1,6 +1,6 @@
 /*
- * Duy Nguyen
- * W1475318
+ * Duy Nguyen & Jaisal Singh
+ * duminguy & jsingh17
  * CS 12M lab5
  * 10/29/16
  * DictionaryTest.c

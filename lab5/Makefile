@@ -1,5 +1,5 @@
 # ---------------------------
-#  Duy Nguyen
+#  Duy Nguyen & Jaisal Singh
 #  CS 12M lab5
 #  10/29/16
 #  Makefile for Dictionary.c
