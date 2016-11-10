@@ -6,7 +6,7 @@
 #  --------------------------
 
 ADT_NAME	= Dictionary
-SOURCES		= $(ADT_NAME),c $(ADT_NAME)Client.c
+SOURCES		= $(ADT_NAME).c $(ADT_NAME)Client.c
 OBJECTS		= $(ADT_NAME).o $(ADT_NAME)Client.o
 HEADERS		= $(ADT_NAME).h
 EXEBIN		= $(ADT_NAME)Client

@@ -16,7 +16,7 @@
 /* private types and functions */
 
 /* NodeObj */
-typedef struc NodeObj{
+typedef struct NodeObj{
     char* key;
     char* value;
     struct NodeObj* next;
@@ -39,7 +39,7 @@ Node newNode(char* k, char* v){
 /* freeNode()
  * destructor for private Node type */
 void freeNode(Node* pN){
-    if(pN != NULL && *pN != NULL)P{
+    if(pN != NULL && *pN != NULL){
 	free(*pN);
 	*pN = NULL;
     }
@@ -79,8 +79,8 @@ void freeDictionary(Dictionary* pD){
  * pre: none */
 int isEmpty(Dictionary D){
     if(D == NULL){
-	fprintf(stderr, "Dictionary Error: calling isEmpty() on NULL Dictionary
-	reference\n");
+	fprintf(stderr, "Dictionary Error: calling isEmpty() on NULL Dictionary"
+	" reference\n");
 	exit(EXIT_FAILURE);
     }
     if(D->numItems > 0){
@@ -104,7 +104,7 @@ char* lookup(Dictionary D, char* k){
     Node N = D->head;
     if(D == NULL){
 	fprintf(stderr, "Dictionary Error: calling lookup() on NULL Dictionary\n");
-	eixt(EXIT_FAILURE);
+	exit(EXIT_FAILURE);
     }
     while(N!=NULL){
 	if(strcmp(N->key, k) == 0){
@@ -179,33 +179,15 @@ void makeEmpty(Dictionary D){
 /* printDictionary()
  * pre: none
  * prints a text representation of D to the file pointed to by out */
-void printDictoinary(FILE* out, Dictionary D){
+void printDictionary(FILE* out, Dictionary D){
     Node N;
     if(D == NULL){
-	fprintf(stderr, "Dictionary Error: calling printDictionary() on NULL
-	Dictionary reference\n");
-	eixt(EXIT_FAILURE);
+	fprintf(stderr, "Dictionary Error: calling printDictionary() on NULL"
+	" Dictionary reference\n");
+	exit(EXIT_FAILURE);
     }
     for(N=D->head; N!=NULL; N=N->next){
 	fprintf(out, "%s %s \n", N->key, N->value);
     }
     fprintf(out, "\n");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
