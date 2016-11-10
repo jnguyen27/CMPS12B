@@ -1,14 +1,14 @@
-// ----------------
+// -------------------------------------------------------------------------------------------
 // Duy Nguyen
 // CS 12b pa3
 // README file
-// ----------------
+// -------------------------------------------------------------------------------------------
 
 README				Table of contents of included files in submission
-Makefile			Compiles
-Dictionary.java 		Description
-DictionaryTest.java		Description
-DuplicateKeyException.java	Description
-KeyNotFoundException.java
-DictionaryInterface.java
-DictionaryClient.java
+Makefile			Compiles DictionaryClient
+Dictionary.java 		Different operations that can be performed on a Dictionary ADT
+DictionaryTest.java		Test client for the Dictionary ADT
+DuplicateKeyException.java	Defines the DuplicateKeyException
+KeyNotFoundException.java	Defines the KeyNotFoundException
+DictionaryInterface.java	Interface file for Dictionary ADT	
+DictionaryClient.java		Client file for Dictionary ADT

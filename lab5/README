@@ -1,1 +1,13 @@
-Edit before submitting
+// -------------------
+// Duy Nguyen
+// CS 12M lab5
+// 10/29/16
+// README file
+// -------------------
+
+README			List of files being submitted
+Makefile		Compiles DictionaryClient.c
+Dictionary.c		Implements Dictionary ADT in C
+DictionaryTest.c	Test the functions of Dictionary.c
+Dictionary.h		Given header file for Dictionary ADT
+DictionaryClient.c	Given test client
