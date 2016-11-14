@@ -8,7 +8,7 @@
 # Variables
 JARFILE		= ListClient
 MAINCLASS	= ListClient
-SOURCES		= List.java ListInterface.java ListCLient.java\
+SOURCES		= List.java ListInterface.java ListClient.java\
 		  ListIndexOutOfBoundsException.java
 CLASSES		= List.class ListInterface.class ListClient.class List\$$Node.class\
 		  ListIndexOutOfBoundsException.class
