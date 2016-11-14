@@ -25,13 +25,13 @@ public class ListTest{
 	System.out.println("B: "+B);
 	System.out.println("C: "+C);
 
-	System.out.println("The size of A is " + A.size());
-	System.out.println("The size of B is " + B.size());
-	System.out.println("The size of C is " + C.size());
+	System.out.println("A.size() is " + A.size());
+	System.out.println("B.size() is " + B.size());
+	System.out.println("C.size() is " + C.size());
 
-	System.out.println("The value at index 1 of A is " + A.get(1));
-	System.out.println("The value at index 2 of B is " + B.get(2));
-	System.out.println("The value at index 1 of C is " + A.get(1));
+	System.out.println("A.get(1) is " + A.get(1));
+	System.out.println("B.get(1) is " + B.get(2));
+	System.out.println("C.get(1) is " + C.get(1));
 
 	System.out.println("A.equals(A) is " + A.equals(A));
 	System.out.println("A.equals(B) is " + A.equals(B));
@@ -40,10 +40,18 @@ public class ListTest{
 	A.remove(1);
 	B.remove(2);
 
-	System.out.println("The size of A is " + A.size());
-	System.out.println("The size of B is " + B.size());
-	System.out.println("The value at index 1 of A is " + A.get(1));
-	System.out.println("THe value at index 2 of B is " + B.get(2));
+	System.out.println("A.size() is " + A.size());
+	System.out.println("B.size() is " + B.size());
+	System.out.println("A.get(1) is " + A.get(1));
+	System.out.println("B.get(1) is " + B.get(1));
+
+	try{
+	    System.out.println(A.get(200));
+	}catch(ListIndexOutOfBoundsException e){
+	    System.out.println("Caught Exception: ");
+	    System.out.println(e);
+	    System.out.println("Continuing without interruption");
+	}
 
 	C.removeAll();
 

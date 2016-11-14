@@ -43,7 +43,7 @@ public class ListClient{
       }catch(ListIndexOutOfBoundsException e){
          System.out.println("Caught Exception: ");
          System.out.println(e);
-         System.out.println("Continuing without interuption");
+         System.out.println("Continuing without interruption");
       }
       System.out.println();
       System.out.println("A.get(2) is "+A.get(2));
