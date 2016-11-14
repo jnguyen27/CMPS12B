@@ -1,1 +1,15 @@
-Edit before submitting
+// -----------------------------------------------------------------------------------------
+// Duy Nguyen
+// CS 12M lab6
+// 11/13/16
+// README file
+// -----------------------------------------------------------------------------------------
+
+README					List of files being submitted
+Makefile				Compiles and makes executable jar file ListClient
+List.java				List-of-anything using Java Generics (from Integer
+					List ADT
+ListTest.java				Test file for List.java
+ListInterface.java
+ListIndexOutOfBoundsException.java	Given Exception file
+ListClient.java				Given Client file
