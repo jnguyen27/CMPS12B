@@ -30,7 +30,7 @@ public interface ListInterface<T>{
    // deletes item from position index
    // pre: 1 <= index <= size()
    // post: items ot the right of deleted item are renumbered
-   public void remove(int index) throws ListIndexOutOfBoundException;
+   public void remove(int index) throws ListIndexOutOfBoundsException;
 
    // removeAll
    // pre: none
