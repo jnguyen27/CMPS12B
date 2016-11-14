@@ -7,7 +7,7 @@
 // List-of-anything using Java Generics
 // from IntegerList ADT
 // -----------------------------------------------------------------
-
+@SuppressWarnings("overrides")
 public class List<T> implements ListInterface<T>{
 
     // private inner Node class
