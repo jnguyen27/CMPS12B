@@ -80,7 +80,7 @@ public class List<T> implements ListInterface<T>{
     public void add(int index, T newItem) throws ListIndexOutOfBoundsException{
 	
 	if(index<1 || index>(numItems+1)){
-	    throw ListIndexOutOfBoundsException(
+	    throw new ListIndexOutOfBoundsException(
 		"List Error: add() called on invalid index: " + index);
 	}
 	if(index==1){
@@ -116,7 +116,7 @@ public class List<T> implements ListInterface<T>{
 	    P.next = N.next;
 	    N.next = null;
 	}
-	numtItems--;
+	numItems--;
     }
 
     // removeAll()
