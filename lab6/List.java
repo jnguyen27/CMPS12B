@@ -25,9 +25,9 @@ public class List<T> implements ListInterface<T>{
     private Node head;	    // reference to first Node in List
     private int numItems;   // number of items in this IntegerList
 
-    // IntegerList()
+    // List()
     // constructor for the IntegerList class
-    public IntegerList(){
+    public List(){
 	head = null;
 	numItems = 0;
     }
@@ -80,7 +80,7 @@ public class List<T> implements ListInterface<T>{
     public void add(int index, T newItem) throws ListIndexOutOfBoundsException{
 	
 	if(index<1 || index>(numItems+1)){
-	    throws ListIndexOutOfBoundsException(
+	    throw ListIndexOutOfBoundsException(
 		"List Error: add() called on invalid index: " + index);
 	}
 	if(index==1){
@@ -94,7 +94,7 @@ public class List<T> implements ListInterface<T>{
 	    P = P.next;
 	    P.next = C;
 	}
-	numItems++
+	numItems++;
     }
 
     // remove()
@@ -152,7 +152,7 @@ public class List<T> implements ListInterface<T>{
 	Node N = null;
 	Node M = null;
 
-	if(this.getClass() == rhs.getClass(){
+	if(this.getClass() == rhs.getClass()){
 	    R = (List<T>)rhs;
 	    eq = (this.numItems==R.numItems);
 

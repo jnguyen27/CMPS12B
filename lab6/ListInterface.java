@@ -24,7 +24,7 @@ public interface ListInterface<T>{
    // inserts newItem in this List at position index
    // pre: 1 <= index <= size()+1
    // post: !isEmpty(), items to the right of newItem are renumbered
-   public void add(int, index, T newItem) throws ListIndexOutOfBoundsException;
+   public void add(int index, T newItem) throws ListIndexOutOfBoundsException;
 
    // remove
    // deletes item from position index
