@@ -219,12 +219,24 @@ public class Dictionary implements DictionaryInterface{
         numItems = 0;
     }
 
+    // private recurseive function that does work
+    // and is called by toString9)
+    private String myString(Node N){
+        String s = "";
+        if(N==null){
+            return "";
+        }else{
+            s = s + myString(N.left);
+            s = s + N.key + " " + N.value + "\n";
+            s = s + myString(N.right);
+        }
+        return s;
+    }
+    
     // toString()
     // overrides object's toString method
-   
     public String toString(){
-        printInOrder(root);
-        return "";
+        return myString(root);
     }
     
 }
