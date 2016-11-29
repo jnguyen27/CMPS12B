@@ -220,7 +220,7 @@ public class Dictionary implements DictionaryInterface{
     }
 
     // private recurseive function that does work
-    // and is called by toString9)
+    // and is called by toString()
     private String myString(Node N){
         String s = "";
         if(N==null){
