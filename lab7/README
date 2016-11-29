@@ -1,1 +1,15 @@
-Edit before submitting
+// ----------------------------------------------------------
+// Duy Nguyen
+// duminguy
+// CS 12M lab7
+// 11/28/16
+// README file
+// ----------------------------------------------------------
+
+README				List of files being submitted
+DictoinaryInterface.java	Given interface file
+KeyNotFoundException.java	Given exception file
+DictionaryClient.java		Given client file
+Dictionary.java
+Makefile			Compiles and makes exectuable
+				jar file for Dictionary.java

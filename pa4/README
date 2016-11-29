@@ -1,1 +1,15 @@
-Edit before submitting
+// ---------------------
+// Duy Nguyen
+// duminguy (W1475318)
+// 11/14/16
+// README file
+// ---------------------
+
+README				Content of files being submitted
+Simulation.java			Simulation file to find various components of jobs
+QueueInterface.java		Given interface file
+QueueEmptyException.java	Exception file for Queue Empty
+Queue.java			Queue ADT Implementation
+QueueTest.java			Test file for Queue.java
+Job.java			Given job file
+Makefile			Compiles and makes executable jar file for Simulation.java

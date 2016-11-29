@@ -1,1 +1,14 @@
-Edit before submitting
+// ----------------------------
+// Duy Nguyen
+// CS 12B pa5
+// 11/28/16
+// README file
+// ----------------------------
+
+README			List of files being submitted
+Dictionary.c		Hast tables of dictionary ADT in C
+Dictionary.h		Given file
+DictionaryTest.c	Test file for Dictionary.c
+DictionaryClient.c	Given test client
+Makefile		Compiles and creates an executable
+			jar file for Dictoinary.c
