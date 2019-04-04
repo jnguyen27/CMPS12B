@@ -6,7 +6,7 @@
 // ----------------------------
 
 README			List of files being submitted
-Dictionary.c		Hast tables of dictionary ADT in C
+Dictionary.c		Hash tables of dictionary ADT in C
 Dictionary.h		Given file
 DictionaryTest.c	Test file for Dictionary.c
 DictionaryClient.c	Given test client
